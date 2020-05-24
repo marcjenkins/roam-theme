@@ -1,0 +1,230 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+      font-family: 'Open Sans';
+}
+
+.rm-block-input,
+div.roam-block {
+    font-family: 'Open Sans';
+    line-height: 1.8 !important;
+    font-size: 1.1em;
+}
+
+.rm-title-display,
+.roam-log-container .roam-log-preview h1.level2 {
+    font-weight: 400 !important;
+    font-size: 1.8em;
+}
+
+
+.roam-log-container .roam-log-preview h1.level2 {
+    color: #939aae !important;
+}
+
+h1.level2 a {
+    color: #0362c0 !important;
+}
+
+.rm-page-ref-tag {
+    color: #a7b6c2 !important;
+}
+
+.rm-level1 {
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+.rm-level2 {
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+.rm-level3 {
+    color: #939aae;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+.rm-page-ref-brackets {
+    color: #0362c0 !important;
+    font-weight: 400;
+    opacity: 0.3;
+}
+
+.rm-page-ref {
+    font-weight: 600;   
+}
+
+.rm-page-ref-link-color {
+    color: #0362c0 !important;
+}
+
+.rm-alias-external {
+    font-weight: 600;
+    color: #ec6f35 !important;
+}
+
+code {
+    border: 1px solid #e1e1e1;
+    background-color: #f9f9fa;
+}
+
+.rm-reference-item {
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #e1e1e1;
+    margin-right: 8px;
+    flex: 1 1 100%;
+    word-break: break-word;
+    background-color: #f9f9fa;
+    padding: 8px;
+}
+
+.rm-mentions .rm-ref-page-view .rm-ref-page-view-title {
+    font-weight: 600;
+}
+
+.controls {
+    position: relative;
+    top: 4px;
+}
+
+.controls .simple-bullet-outer .simple-bullet-inner {
+    background-color: #e5e9f2;
+    display: block;
+}
+
+.block-border-left {
+    border-left: 1px solid #e5e9f2;
+    border-radius: 0;
+}
+
+.checkmark {
+    background: #fff;
+}
+
+.check-container {
+    position: relative;
+    top: -9px;
+    margin-right: 3px;
+}
+
+.check-container input:checked ~ .checkmark {
+    background: #0362c0;
+}
+
+.check-container input:checked ~ .checkmark:after {
+    border-color: #fff;
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+    background: #f9fafb;
+    border-right: 1px solid #f2f4f7;
+}
+
+.roam-body .roam-app .roam-sidebar-container:hover {
+    opacity: 1;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content {
+    padding-top: 8px;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content > div:first-child {
+    display: none;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper > div:first-child {
+    background-color: #f2f4f7 !important;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .flex-h-box {
+    display: none;   
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button div,
+.page {
+    color: #373b3e !important;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover, 
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+    background: #f9fafb;
+    color: black !important;
+}
+
+.bp3-input[type="search"] {
+    border-radius: 0;
+    border-bottom: 1px solid #eee;
+    box-shadow: none;
+}
+
+.bp3-button[class*="bp3-icon-"]::before {
+    color: #ccc !important;
+}
+
+.bp3-icon.bp3-icon-search svg {
+    fill: #ccc !important;
+}
+
+.bp3-overlay-inline {
+    color: white !important;
+}
+
+#roam-sidebar-logo, 
+#buffer {
+    display: none !important;
+}
+
+#right-sidebar {
+    background-color: #f9f9fa !important;
+    border-left: 1px solid #f2f4f7;
+    border-top: 1px solid #f2f4f7;
+}
+
+/* Custom tag styling */
+span.rm-page-ref-tag {
+    background-color: white !important;
+    border: 1px solid #f2f4f7;
+    border-radius: 16px;
+    padding: 2px 8px;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #999 !important;
+}
+
+span.rm-page-ref-tag:hover {
+    background-color: #f9f9fa !important;
+    border: 1px solid #eee;
+    text-decoration: none;
+}
+
+span.rm-page-ref-tag[data-tag="Actions"] {
+    color: white !important;
+    background-color: #FCB815 !important;
+    border-color: #FCB815;
+}
+
+span.rm-page-ref-tag[data-tag="Todo"] {
+    color: white !important;
+    background-color: #4e9dfe !important;
+    border-color: #4e9dfe;
+}
+
+span.rm-page-ref-tag[data-tag="Journal"] {
+    color: white !important;
+    background-color: #1b7d57 !important;
+    border-color: #1b7d57;
+}
+
+span.rm-page-ref-tag[data-tag="Flag"] {
+    color: white !important;
+    background-color: #fd776f !important;
+    border-color: #fd776f;
+}
